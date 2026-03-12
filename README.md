@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Spark](https://img.shields.io/badge/Spark-3.5-orange)
+![GCP](https://img.shields.io/badge/GCP-Lakehouse-blue)
+![BigQuery](https://img.shields.io/badge/BigQuery-Partitioned%20%26%20Clustered-green)
+![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
+
 # Ro Lakehouse – End-to-End Data Engineering Pipeline (GCP + Spark)
 
 ## Project Overview
