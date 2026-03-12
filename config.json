@@ -1,0 +1,6 @@
+{
+  "project_id": "ro-lakehouse-project",
+  "bucket": "ro-lakehouse-ro-lakehouse-project-dl",
+  "bq_dataset": "lakehouse",
+  "timezone": "America/Phoenix"
+}

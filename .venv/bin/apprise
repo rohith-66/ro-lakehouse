@@ -1,0 +1,6 @@
+#!/Users/rohithsrinivasa/projects/ro-lakehouse/.venv/bin/python3.11
+import sys
+from apprise.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())

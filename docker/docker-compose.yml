@@ -1,0 +1,12 @@
+services:
+  spark:
+    image: apache/spark:3.5.1
+    container_name: ro_spark
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/opt/creds/adc.json
+    volumes:
+      - ../spark_jobs:/opt/spark_jobs
+      - ~/.config/gcloud/application_default_credentials.json:/opt/creds/adc.json:ro
+      - ../docker/jars:/opt/jars
+    working_dir: /opt/spark_jobs
+    command: ["sleep", "infinity"]
